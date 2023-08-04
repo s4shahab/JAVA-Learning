@@ -7,6 +7,8 @@ class Employee{
     int salary;
     String name;
 
+
+
 //    adding method
     public  void printDetails(){
         System.out.println("My id is :"+id);

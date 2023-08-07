@@ -22,12 +22,23 @@ class B extends A{
 
 public class cwh_48_Method_overRiding {
     public static void main(String[] args) {
+        System.out.println("step 1");
 
         A a=new A();
+        System.out.println("step 2");
         a.jarry();
+        System.out.println("step 3");
 
         B b=new B();
-        b.jarry();
 
+        System.out.println("step 4");
+        b.jarry();
+        System.out.println("step 5");
+
+        A aa = new B();
+        aa.jarry();
+
+//        B bb=new A();
+//        bb.jarry();
     }
 }

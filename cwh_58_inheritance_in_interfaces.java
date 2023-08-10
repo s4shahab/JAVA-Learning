@@ -12,23 +12,29 @@ interface childSampleInterface extends sampleInterface{
 
 class MySampleClass implements childSampleInterface{
     public void method1(){
-        System.out.println("Method 3");
+        System.out.println("Method 1");
 
     }
 
     public void method2(){
-        System.out.println("method 4");
+        System.out.println("method 2");
     }
 
     public void method3(){
-        System.out.println("method 1");
+        System.out.println("method 3");
     }
     public void method4(){
-        System.out.println("method1");
+        System.out.println("method 4");
     }
 }
 public class cwh_58_inheritance_in_interfaces {
     public static void main(String[] args) {
+
+        MySampleClass obj=new MySampleClass();
+        obj.method1();
+        obj.method2();
+        obj.method3();
+        obj.method4();
 
     }
 }

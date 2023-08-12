@@ -1,2 +1,5 @@
-package PACKAGE_NAME;public class cwh_67_practice {
+public class cwh_67_practice {
+    public static void main(String[] args) {
+
+    }
 }

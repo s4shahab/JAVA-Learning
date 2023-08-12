@@ -1,2 +1,5 @@
-package PACKAGE_NAME;public class cwh_68_exercise5 {
+public class cwh_68_exercise5 {
+    public static void main(String[] args) {
+
+    }
 }

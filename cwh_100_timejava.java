@@ -1,10 +1,10 @@
-package cwh_100_java;
+package cwh_100_timejava;
 
 import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.time.LocalTime;
 
-public class time {
+public class cwh_100_timejava {
     public static void main(String[] args) {
         LocalDate d=LocalDate.now();
         System.out.println(d);

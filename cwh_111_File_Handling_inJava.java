@@ -1,12 +1,8 @@
 
 
 import java.io.File;
-import java.io.FileNotFoundException;
-import java.io.FileWriter;
-import java.io.IOException;
-import java.util.Scanner;
 
-public class cwh_File_Handling_inJava {
+public class cwh_111_File_Handling_inJava {
     public static void main(String[] args) {
 
         // Code to create a new file
